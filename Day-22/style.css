@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.minediv{
+    width: 1024px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+}
+h1::before{
+    content: "Age-";
+}
+h1::after{
+    content: "-Pore";
+}
+
+h2{
+    color: royalblue;
+    font-size: 40px;
+}
+p::before{
+    content: '"';
+}
+p::after{
+    content: '"';
+}
+
+/* button */
+.button{
+    margin: 20px;
+}
+.click-class-1{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: royalblue;
+    display: inline-block;
+    color: seashell;
+    margin: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.click-class-1::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+
+    transition: .5s;
+}
+.click-class-1:hover::before{
+    width: 100%;
+}
+
+.click-class-2{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: royalblue;
+    display: inline-block;
+    color: seashell;
+    margin: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.click-class-2::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+
+    transition: .5s;
+}
+.click-class-2:hover::before{
+    height: 100%;
+}
+
+.click-class-3{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: royalblue;
+    display: inline-block;
+    color: seashell;
+    margin: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.click-class-3::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+
+    transition: .5s;
+}
+.click-class-3:hover::before{
+    width: 100%;
+}
+
+.click-class-4{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: royalblue;
+    display: inline-block;
+    color: seashell;
+    margin: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.click-class-4::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+
+    transition: .5s;
+}
+.click-class-4:hover::before{
+    height: 100%;
+}
+
+
+/* menu */
+.div1{
+    display: inline-block;
+    margin-right: 50px;
+}
+.div1 ul{
+    padding: 20px;
+}
+.div1 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.div1 ul li a::before{
+    content: "\f14a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.div2{
+    display: inline-block;
+    margin-right: 50px;
+}
+.div2 ul{
+    padding: 20px;
+}
+.div2 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.div2 ul li a::before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.div3{
+    display: inline-block;
+    margin-right: 50px;
+}
+.div3 ul{
+    padding: 20px;
+}
+.div3 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div3 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.div3 ul li a::before{
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.div4{
+    display: inline-block;
+    margin-right: 50px;
+}
+.div4 ul{
+    padding: 20px;
+}
+.div4 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div4 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.div4 ul li a::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+}

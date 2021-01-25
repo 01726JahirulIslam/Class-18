@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu{
+    width: 1024px;
+    margin: 25px auto;
+    text-align: center;
+}
+.header-menu{
+    background-color: #000000;
+}
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: inline-block;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-menu ul li a:hover{}
+
+
+.header{
+    background-color: #DDDDDD;
+    padding: 20px;
+}
+
+/* Container */
+.container{
+    background-image: url(https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.div1{
+    display: inline-block;
+    margin-right: 50px;
+    background-color: #000000;
+}
+.div1 ul{
+    padding: 20px;
+}
+.div1 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.div1 ul li::before{
+    content: "\f5d0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.div2{
+    display: inline-block;
+    background-color: #000000;
+}
+.div2 ul{
+    padding: 20px;
+}
+.div2 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.div2 ul li::before{
+    content: "\f5d2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+}
+.div2 ul li::after{
+    content: "\f5d2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.div3{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #000000;
+}
+.div3 ul{
+    padding: 20px;
+}
+.div3 ul li{
+    list-style: none;
+    padding: 5px;
+}
+.div3 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.div3 ul li::before{
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* socialmenu */
+
+.footer-menu{
+    background-color: #000000;
+    padding: 30px;
+}
+.footer-menu ul{
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    display: inline-block;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.footer-menu p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 10px;
+}
